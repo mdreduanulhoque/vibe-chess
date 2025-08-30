@@ -6,7 +6,7 @@ A unique, relaxing chess experience with a twist! No checkmate stress - just pur
 
 ## 🎮 **Play Now**
 
-**[🚀 Play Vibe Chess Online](https://yourusername.github.io/vibe-chess/)**
+**[🚀 Play Vibe Chess Online]([https://mdreduanulhoque.github.io/vibe-chess/])**
 
 *Replace the link above with your actual GitHub Pages URL after deployment*
 
@@ -49,7 +49,7 @@ A unique, relaxing chess experience with a twist! No checkmate stress - just pur
 3. Start playing immediately!
 
 ```bash
-git clone https://github.com/yourusername/vibe-chess.git
+git clone [https://github.com/mdreduanulhoque/vibe-chess.git]
 cd vibe-chess
 # Open index.html in your browser
 ```
@@ -58,7 +58,7 @@ cd vibe-chess
 1. Fork this repository
 2. Go to Settings → Pages
 3. Select "Deploy from a branch" → "main"
-4. Your game will be live at `https://yourusername.github.io/vibe-chess/`
+4. Your game will be live at `https://mdreduanulhoque.github.io/vibe-chess/`
 
 ## 📱 **Mobile Friendly**
 
@@ -125,14 +125,15 @@ Contributions are welcome! Feel free to:
 
 ## 🔗 **Links**
 
-- **Live Demo**: [Play Now](https://yourusername.github.io/vibe-chess/)
-- **Issues**: [Report Bug](https://github.com/yourusername/vibe-chess/issues)
-- **Discussions**: [Game Feedback](https://github.com/yourusername/vibe-chess/discussions)
+- **Live Demo**: [Play Now](https://mdreduanulhoque.github.io/vibe-chess/)
+- **Issues**: [Report Bug](https://github.com/mdreduanulhoque/vibe-chess/issues)
+- **Discussions**: [Game Feedback](https://github.com/mdreduanulhoque/vibe-chess/discussions)
 
 ## 🎊 **Enjoy Playing!**
 
 Relax, strategize, and have fun with this unique take on chess! Perfect for quick gaming sessions or stress-free entertainment.
 
 ---
+
 
 Made with 💜 for chess lovers who want a more relaxing experience!
