@@ -6,9 +6,7 @@ A unique, relaxing chess experience with a twist! No checkmate stress - just pur
 
 ## 🎮 **Play Now**
 
-**[🚀 Play Vibe Chess Online]([https://mdreduanulhoque.github.io/vibe-chess/])**
-
-*Replace the link above with your actual GitHub Pages URL after deployment*
+**[🚀 Play Vibe Chess Online](https://mdreduanulhoque.github.io/vibe-chess/)**
 
 ## ✨ **Unique Features**
 
@@ -137,3 +135,4 @@ Relax, strategize, and have fun with this unique take on chess! Perfect for quic
 
 
 Made with 💜 for chess lovers who want a more relaxing experience!
+
