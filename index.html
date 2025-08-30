@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vibe Chess - Relaxing 5 Minute Chess</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Main Menu Page -->
+    <div id="mainMenu" class="page active">
+        <div class="menu-container">
+            <header class="main-header">
+                <h1>🏆 Vibe Chess 🏆</h1>
+                <p class="tagline">A Relaxing Chess Experience</p>
+            </header>
+            
+            <div class="menu-content">
+                <div class="game-features">
+                    <div class="feature-card">
+                        <div class="feature-icon">⏰</div>
+                        <h3>5 Minute Games</h3>
+                        <p>Quick, exciting matches that fit your schedule</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🎯</div>
+                        <h3>No Checkmate Stress</h3>
+                        <p>Win by having the most pieces when time runs out</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🎨</div>
+                        <h3>Beautiful Design</h3>
+                        <p>Colorful, calming interface for a relaxing experience</p>
+                    </div>
+                </div>
+                
+                <div class="menu-actions">
+                    <button class="main-btn start-game-btn" onclick="showPage('gamePage')">🚀 Start New Game</button>
+                    <button class="main-btn rules-btn" onclick="showPage('rulesPage')">📖 How to Play</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Rules Page -->
+    <div id="rulesPage" class="page">
+        <div class="rules-container">
+            <header class="page-header">
+                <h1>📖 How to Play Vibe Chess</h1>
+                <button class="back-btn" onclick="showPage('mainMenu')">← Back to Menu</button>
+            </header>
+            
+            <div class="rules-content">
+                <div class="rule-section">
+                    <h3>🎯 Game Objective</h3>
+                    <p>Have the highest number of pieces remaining when the 5-minute timer expires!</p>
+                </div>
+                
+                <div class="rule-section">
+                    <h3>♟️ Piece Movement</h3>
+                    <p>All pieces move according to traditional chess rules:
+                       <br>• Pawns move forward, capture diagonally
+                       <br>• Rooks move horizontally and vertically
+                       <br>• Bishops move diagonally
+                       <br>• Knights move in L-shapes
+                       <br>• Queens combine rook and bishop moves
+                       <br>• Kings move one square in any direction</p>
+                </div>
+                
+                <div class="rule-section">
+                    <h3>🏆 Victory Conditions</h3>
+                    <p>• No checkmate required!
+                       <br>• Game ends when 5-minute timer expires
+                       <br>• Player with more pieces wins
+                       <br>• Ties are possible if piece counts are equal</p>
+                </div>
+                
+                <div class="rule-section">
+                    <h3>🎮 Controls</h3>
+                    <p>• Click a piece to select it (it will glow)
+                       <br>• Click highlighted squares to move
+                       <br>• Capture opponent pieces by moving onto them
+                       <br>• Watch the timer and piece counts!</p>
+                </div>
+            </div>
+            
+            <div class="rules-actions">
+                <button class="main-btn" onclick="showPage('gamePage')">🚀 Start Playing</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Game Page -->
+    <div id="gamePage" class="page">
+        <div class="game-container">
+            <header class="game-header">
+                <button class="back-btn" onclick="showPage('mainMenu')">← Menu</button>
+                <h1>🏆 Vibe Chess 🏆</h1>
+                <div class="header-spacer"></div>
+            </header>
+            
+            <div class="game-info">
+                <div class="timer-section">
+                    <h2>⏰ Game Timer</h2>
+                    <div class="timer" id="timer">5:00</div>
+                    <button class="start-btn" id="startBtn">Start Game</button>
+                    <button class="reset-btn" id="resetBtn">Reset Game</button>
+                </div>
+                
+                <div class="score-section">
+                    <div class="player-score">
+                        <h3>🤍 White Side</h3>
+                        <div class="piece-count" id="whitePieces">16</div>
+                    </div>
+                    <div class="current-turn" id="currentTurn">
+                        White's Turn
+                    </div>
+                    <div class="player-score">
+                        <h3>⚫ Black Side</h3>
+                        <div class="piece-count" id="blackPieces">16</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="chess-board-container">
+                <div class="chess-board" id="chessBoard">
+                    <!-- Chess squares will be generated by JavaScript -->
+                </div>
+            </div>
+
+            <div class="game-status" id="gameStatus">
+                Click "Start Game" to begin your relaxing chess experience!
+            </div>
+        </div>
+    </div>
+
+    <!-- Results Page -->
+    <div id="resultsPage" class="page">
+        <div class="results-container">
+            <header class="results-header">
+                <h1 id="winnerTitle">🎉 Game Complete! 🎉</h1>
+                <div id="winnerSubtitle" class="winner-subtitle"></div>
+            </header>
+            
+            <div class="results-content">
+                <div class="final-scores">
+                    <div class="final-score">
+                        <div class="player-name">🤍 White Side</div>
+                        <div class="final-count" id="finalWhiteCount">0</div>
+                        <div class="pieces-label">pieces</div>
+                    </div>
+                    <div class="vs-divider">VS</div>
+                    <div class="final-score">
+                        <div class="player-name">⚫ Black Side</div>
+                        <div class="final-count" id="finalBlackCount">0</div>
+                        <div class="pieces-label">pieces</div>
+                    </div>
+                </div>
+                
+                <div class="results-actions">
+                    <button class="main-btn" onclick="startNewGame()">🔄 Play Again</button>
+                    <button class="main-btn secondary" onclick="showPage('mainMenu')">🏠 Main Menu</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

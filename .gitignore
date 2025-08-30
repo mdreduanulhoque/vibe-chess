@@ -1,0 +1,31 @@
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Environment variables
+.env
+
+# Temporary files
+*.tmp
+*.temp
+
+# Archive files (if you create backups)
+*.zip
+*.rar
+*.7z
+
+# Optional: If you add analytics or tracking later
+analytics/
+tracking/
