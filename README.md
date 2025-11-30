@@ -39,43 +39,6 @@ A unique, relaxing chess experience with a twist! No checkmate stress - just pur
 4. **Victory**: Player with most pieces on their side when timer expires wins!
 5. **No Checkmate**: Kings can be captured like any other piece
 
-## 🚀 **Quick Start**
-
-### Play Locally
-1. Clone this repository
-2. Open `index.html` in any modern web browser
-3. Start playing immediately!
-
-```bash
-git clone [https://github.com/mdreduanulhoque/vibe-chess.git]
-cd vibe-chess
-# Open index.html in your browser
-```
-
-### Deploy on GitHub Pages
-1. Fork this repository
-2. Go to Settings → Pages
-3. Select "Deploy from a branch" → "main"
-4. Your game will be live at `https://mdreduanulhoque.github.io/vibe-chess/`
-
-## 📱 **Mobile Friendly**
-
-- **Responsive Design**: Adapts to all screen sizes
-- **Touch Optimized**: Perfect for mobile and tablet play
-- **Corner Timer**: Minimizes during gameplay on mobile
-- **Smooth Performance**: Optimized for all devices
-
-## 🎨 **Screenshots**
-
-### Main Menu
-Beautiful landing page with game features and easy navigation.
-
-### Game Board
-Clean, colorful chess interface with live piece counting and timer.
-
-### Results Page
-Celebratory victory screen with final scores and replay options.
-
 ## 🛠 **Technology Stack**
 
 - **Frontend**: Pure HTML5, CSS3, JavaScript (ES6+)
@@ -135,4 +98,5 @@ Relax, strategize, and have fun with this unique take on chess! Perfect for quic
 
 
 Made with 💜 for chess lovers who want a more relaxing experience!
+
 
