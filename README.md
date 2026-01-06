@@ -1,4 +1,5 @@
 # 🏆 Vibe Chess - Relaxing 5-Minute Chess Game
+(AI assisted project)
 
 A unique, relaxing chess experience with a twist! No checkmate stress - just pure strategic fun with a 5-minute timer and territorial victory conditions.
 
@@ -98,5 +99,6 @@ Relax, strategize, and have fun with this unique take on chess! Perfect for quic
 
 
 Made with 💜 for chess lovers who want a more relaxing experience!
+
 
 
